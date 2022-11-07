@@ -1,0 +1,47 @@
+
+body > header {
+	height: unset;
+	min-height: 100%;
+	max-height: unset;
+	padding-bottom: 2%;
+}
+
+#header-Layer {
+	opacity: 0.5;
+	max-height: unset;
+}
+
+.item-grid {
+	background: white;
+	max-width: 1000px;
+	transform: scale(0.92);
+}
+
+.item-grid button {
+	background: #eaeaea;
+	border: 0;
+	border-radius: 2px;
+}
+
+form input {
+    display: inline-table;
+    width: 70%;
+    max-width: unset;
+    padding: 8px 34px 8px 8px;
+    border-radius: 40px;
+    outline: none;
+}
+
+.pagination button {
+	display: inline-table !important;
+}
+
+
+
+
+
+
+
+
+
+

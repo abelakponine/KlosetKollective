@@ -1,0 +1,303 @@
+
+body {
+    font-family: futura-pt;
+}
+
+body > header {
+    height: 98%;
+    min-height: 480px;
+    max-height: 750px;
+    background-image: url('../images/shopping-bg2.jpg');
+    background-position: 30% 50px;
+}
+
+#logo1 {
+    display: inline-block;
+}
+
+#logo2 {
+    display: none;
+}
+
+body > header > a {
+    color: white;
+}
+
+.mbtn {
+    display: none !important;
+}
+
+.mbtn button {
+    width: 26px;
+    height: 24px;
+    top: 6px;
+}
+
+.list-item a {
+    display: block;
+}
+
+.brandName {
+    color: white;
+    font-weight: bolder;
+}
+
+.nav {
+    background: #1e272c;
+    opacity: 0.98;
+    padding: 0px 1%;
+    position: fixed;
+    top: 0px;
+}
+
+.nav .grid.column-2 button {
+    display: block;
+    background: transparent;
+    width: 100%;
+    padding: 19px 0px;
+    border: 0;
+    font-size: 0.875rem;
+    font-family: futura-pt,sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+#fixedNav .grid.column-1 button {
+    display: inline-block;
+    background: transparent;
+    padding: 18px 8px;
+    margin: 0 8px;
+    border: 0;
+    font-size: 0.875rem;
+    font-family: futura-pt,sans-serif;
+    color: white;
+}
+
+.nav .grid.column-2:not(.mbtn) button:hover {
+    background: #484848 !important;
+}
+
+.nav .grid.column-2 button.active {
+    background: #525050 !important;
+}
+
+#fixedNav .grid.column-1 button.active {
+    background: #eeeeee !important;
+    color: #404040;
+}
+
+#fixedNav .grid.column-1 button:hover {
+    background: #ededed !important;
+    color: black;
+}
+
+#header-Layer {
+    opacity: 0.3;
+}
+
+#darkLayer {
+    background: white;
+    opacity: 1;
+}
+
+.nav .grid.mbtn button {
+    display:; block;
+    background: none;
+    background-image: url('../images/mbtn.png');
+    background-size: 100% 100%;
+    width: 22px;
+    height: 22px;
+    margin: 0px 4px;
+    top:; 8px;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    position: relative;
+}
+
+.nav .grid.mbtn {
+    background: none;
+    display: inline-table;
+    width: 40px;
+    position: relative;
+}
+
+
+.nav form button {
+    padding: 6px 8px;
+    border-radius: 50%;
+    font-size: 18px;
+    position: relative;
+    top: 5px;
+    right: 12px;
+    background: none;
+}
+
+.icon-img {
+    width: 40px;
+    cursor: pointer;
+}
+
+.nav form {
+    display: inline-table;
+    background: none;
+    width: 100%;
+    max-width: unset;
+    padding: 0;
+    margin: auto;
+}
+
+.nav input {
+    display: inline-table;
+    width: 92%;
+    max-width: unset;
+    padding: 12px 15px;
+    border: 0;
+    border-radius: 100px;
+    outline: none;
+}
+
+.subNav ul a {
+    color: grey !important;
+    padding: 4px 8px;
+}
+
+.subNav ul a li:hover {
+    display: inline-table;
+    background: #9a9a9a;
+    border-radius: 12px;
+    color: white !important;
+}
+
+.subNav ul a:hover {
+    display: block;
+    background: #9a9a9a;
+    padding: 4px;
+    color: white !important;
+}
+
+.list-item li, .nav .list-item .nav-item {
+    margin: -2px auto;
+}
+
+#imgAd {
+    width: 450px !important;
+    overflow: hidden;
+}
+
+#fixedNav {
+    background: #e13f1a;
+    padding: 0 1% !important;
+    font-size: 20px;
+}
+
+.defaultBtn {
+    border: 0;
+    padding: 7px;
+}
+
+.slide {
+    position: relative;
+    transition-duration: 2s;
+}
+
+#accessbtn {
+    cursor: pointer;
+}
+
+#access-hover:before {
+    content: '';
+    border: 18px solid transparent;
+    border-bottom-color: #d8d8d8;
+    position: absolute;
+    top: -35px;
+    left: 138px;
+    z-index: 2;
+}
+
+.sbtn {
+    display: none !important;
+}
+
+@media all and (max-width:1024px){
+
+body > header {
+    background-position: 45% 0;
+}
+.nav .grid.column-2:nth-of-type(3) {
+    display: none;
+}
+
+.nav .grid.column-5x2 {
+    width: 210px;
+    min-width: unset !important;
+    padding: 6px 0 !important;
+}
+
+.nav .grid.column-5x2:nth-of-type(2) {
+    width: 50% !important;
+}
+
+#fixedNav {
+    display: none;
+}
+
+}
+
+@media all and (max-width:920px){
+    
+    form {
+        max-width: 480px;
+    }
+
+    form input {
+        width: 92%;
+        max-width: 420px;
+    }
+
+    form textarea {
+        width: 92% !important;
+        max-width: 420px;
+        padding: 10px !important;
+        margin: 2px auto;
+    }
+
+    .user.grid.column-3 {
+        width: 80% !important;
+    }
+
+    .nav .grid.column-4x2 {
+        width: 62%;
+    }
+    
+    .nav input {
+        /*max-width: 160px;*/
+    }
+    
+    .no-border.grid.column-3 {
+        width: 96%;
+        padding: 2%;
+    }
+
+    footer {
+        bottom: 4px !important;
+    }
+}
+
+@media all and (max-width:730px){
+
+.nav .grid.column-5 {
+    display:; none;
+}
+
+}
+
+@media all and (max-width:680px){
+
+    #prodbox div {
+        width: 100% !important;
+    }
+}
+
+
+

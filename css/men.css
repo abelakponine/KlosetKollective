@@ -1,0 +1,5 @@
+body > header {
+	background-image: url('../images/menbg.jpg');
+	background-position: 30% 0px;
+	background-size: cover cover;
+}

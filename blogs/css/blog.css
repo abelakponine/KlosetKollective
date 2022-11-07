@@ -1,0 +1,12 @@
+
+.item-grid img {
+	width: unset;
+	height: unset !important;
+}
+
+@media all and (max-width: 800px){
+
+    .no-border.grid.column-3x2 {
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,23 @@
+body {
+    background: #efefef;
+}
+
+form {
+    width: 94%;
+    height: 100%;
+    padding: 2%;
+    max-width: 650px;
+    border-radius: 0;
+}
+
+form input {
+    padding: 14px;
+    max-width: 350px;
+    display: block;
+    border: 1px solid #adadad;
+    margin: 8px 0;
+    font-size: 16px;
+    border-radius: 0;
+}
+
+
